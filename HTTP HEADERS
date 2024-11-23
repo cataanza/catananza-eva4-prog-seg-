@@ -1,0 +1,86 @@
+¿Qué son los Encabezados HTTP?
+Son fragmentos de información adicionales que se envían junto con las solicitudes o respuestas HTTP para intercambiar datos entre clientes (como navegadores) y servidores web.
+
+¿A qué se asemejan los encabezados HTTP en la analogía de la "casa"?
+Se asemejan a la etiqueta o sobre que acompaña un paquete, ya que especifican detalles importantes como el destinatario, remitente y cómo manejar el contenido.
+
+¿Qué tipo de información se envía a los servidores web cuando se realiza un proceso de registro o inicio de sesión?
+
+Credenciales del usuario (usuario/contraseña).
+Tokens de autenticación.
+Información del navegador y dispositivo (User-Agent).
+¿Qué son los "Response Headers"?
+Son encabezados enviados por el servidor en respuesta a una solicitud HTTP. Contienen metadatos como el tipo de contenido, la codificación, y políticas de seguridad.
+
+¿Cuál es la importancia de los "Response Headers"?
+Ayudan a que el navegador interprete correctamente la respuesta, mejoran la seguridad y optimizan el rendimiento de la comunicación web.
+
+¿Qué es la "pestaña Network" en las herramientas para desarrolladores?
+Es una sección donde se monitorean las solicitudes y respuestas HTTP en tiempo real, útil para analizar el tráfico web y diagnosticar problemas.
+
+¿Cuál es el principal objetivo de los Encabezados HTTP en términos de seguridad?
+Proteger la información durante la transmisión, evitar ataques como XSS y asegurar que los datos se manejen según políticas específicas.
+
+¿Qué tipos de Encabezados HTTP existen para proteger la información?
+
+Content-Security-Policy (CSP).
+Strict-Transport-Security (HSTS).
+X-Content-Type-Options.
+¿Qué es la encriptación y cómo se relaciona con los Encabezados HTTP en la seguridad web?
+La encriptación es un proceso que convierte los datos en un formato seguro para evitar que sean leídos por terceros. Los encabezados HTTPS trabajan junto con SSL/TLS para garantizar la transmisión encriptada.
+
+¿Cuál es el nombre de la página web oficial de Mozilla con documentación sobre Encabezados HTTP?
+MDN Web Docs.
+
+¿Cuáles son algunos ejemplos de Encabezados HTTP utilizados para la autenticación?
+
+Authorization.
+WWW-Authenticate.
+Proxy-Authenticate.
+¿Qué son las cookies y qué función cumplen?
+Las cookies son pequeños archivos que los sitios web almacenan en el navegador del usuario. Sirven para recordar información como sesiones, preferencias o historial.
+
+¿Cuáles son los 2 tipos de Encabezados HTTP utilizados para la protección de contenido web?
+
+Content-Security-Policy (CSP).
+X-Frame-Options.
+¿Qué función cumple el Content Security Policy (CSP)?
+Ayuda a prevenir ataques como el XSS al limitar las fuentes desde donde se puede cargar contenido en una página web.
+
+¿Qué es el "XSS" y cómo se relaciona con los Encabezados HTTP?
+El XSS (Cross-Site Scripting) es un ataque que inyecta scripts maliciosos en sitios web. Encabezados como CSP o X-XSS-Protection ayudan a mitigar este tipo de vulnerabilidades.
+
+¿Qué encabezado ayuda al rendimiento de una página web?
+Cache-Control, ya que gestiona la forma en que los recursos se almacenan y reutilizan.
+
+¿Cómo se identifican los Encabezados HTTP antes del 2012?
+Usualmente mediante herramientas de análisis manual o monitores de tráfico como Wireshark.
+
+¿Qué es SEO en el contexto de la web?
+Search Engine Optimization, un conjunto de prácticas para mejorar la visibilidad y el posicionamiento de un sitio en buscadores.
+
+¿Cuál es el atajo del teclado para acceder al inspector de elementos en el navegador?
+Generalmente es Ctrl + Shift + I (o Cmd + Option + I en Mac).
+
+¿Qué significa "HTTP" en las siglas de Encabezados HTTP?
+Hypertext Transfer Protocol, que es el protocolo de comunicación para transferir datos en la web.
+
+¿Cuál es la diferencia entre los encabezados HTTP y los encabezados HTTPS?
+Los encabezados HTTPS se transmiten de forma encriptada mediante SSL/TLS, garantizando mayor seguridad frente a interceptaciones, a diferencia de HTTP.
+
+¿Cuáles son los tipos de métodos HTTP más utilizados?
+
+GET.
+POST.
+PUT.
+DELETE.
+PATCH.
+¿Qué permiten hacer las herramientas de desarrollo del navegador con respecto a los encabezados HTTP?
+Inspeccionar las solicitudes y respuestas.
+Analizar tiempos de carga.
+Diagnosticar errores en las configuraciones de encabezados.
+¿Qué es un "Proxy" y cómo se relaciona con los Encabezados HTTP?
+Un proxy es un intermediario entre el cliente y el servidor. Puede modificar, filtrar o registrar los encabezados HTTP antes de que lleguen a su destino.
+
+¿Cómo se pueden usar los Encabezados HTTP para optimizar el SEO de un sitio web?
+Encabezados como meta-description, robots, y canonical ayudan a los motores de búsqueda a interpretar mejor el contenido y optimizar su indexación.
